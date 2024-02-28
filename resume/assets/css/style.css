@@ -1,0 +1,75 @@
+/*-----CSS custom properties-----*/
+root:{
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /*------typography-----*/
+  body {
+    font-family: "open sans", sans-serif;
+  }
+
+  /*-----fluid images-----*/
+  img {
+    max-width:100%;
+  }
+
+  /*------hidden content-----*/
+
+
+
+
+
+
+
+
+  /*------global styles------*/
+  body{
+    background: var();
+    color:var(--primary-type-color);
+    line-height:1.6;
+  
+
+  nav ul{
+    display:grid;
+  }
+
+  nav li{
+    list-style-type:none;
+  }
+
+  nav a:hover{
+    background:rgba(0,0,0,0.95);
+  }
+
+  dl{
+    display:grid;
+    /*---shorthand---*/
+    grid-template: repeat(8, auto) / 7em 1fr;
+    font-size:0.9rem;
+  }
+
+  dt{
+    font-weight:800;
+    grid-column:1;
+    padding:10px 0;
+    border-bottom:1px solid var(--accent-color-1--);
+  }
+  dd{
+    margin:0;
+    grid-column:2;
+    padding:10px 0;
+    border-bottom:1px solid var(--accent-color-1--);
+  }
+  
+  .related-links li{
+
+  }
+  
+  }
