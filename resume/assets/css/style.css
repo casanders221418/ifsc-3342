@@ -1,8 +1,8 @@
 /*-----CSS custom properties-----*/
 :root{
-  --main-bg-color:#efefef:var(--main-bg-color)
-  --primary-type-color: #222222;
-  --accent-color-1: #999999;
+  --main-bg-color:#F2E0C9:var(--main-bg-color)
+  --primary-type-color: #025959;
+  --accent-color-1: #04ADBF;
 }
 
 html {
@@ -29,6 +29,7 @@ html {
     width: 420px; /* Design Time */
     margin: 0 auto;
     background: rgba (0, 0, 0, 0.15);
+    background-color: #F2E0C9;
   }
 
   /* --- Hidden Content / Helper Classes --- */
@@ -116,6 +117,11 @@ main h1:after {
   margin-left: 5px;
 }
 
+main img {
+  size-adjust: 10%;
+  border: 1px solid var(--accent-color-1);
+}
+
   dl{
     display:grid;
     /*---shorthand---*/
@@ -149,12 +155,12 @@ main h1:after {
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
-    color: #222222;
+    color: #025959;
     text-transform: uppercase;
     font-size: 0.75em;
     background: rgba(0, 0, 0, 0.65);
     transition: background-color 0.5s ease;
-    color: #fff;
+    color: #04ADBF;
   }
 
   .related-links .svg-inline--fa {
