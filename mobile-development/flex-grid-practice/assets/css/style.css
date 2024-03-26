@@ -17,38 +17,45 @@ html {
     clear: both;
 }
 
-
 main{
-    width: 956px;
+    width: 80vw;
     margin: 20px auto;
     border: 2px dashed #F27F1B;
-    background-image: url(../img/grid.png);
 }
 
 header.primary, footer.primary{
-    width: 916px;
+    /* width: 916px; */
+    width: 95.816%
     background: #6BCCF2;
     opacity: 50%; 
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px; */ 
+    margin: 2.092%;
+    /* padding: 20px; */
+    padding: 2.092%;
     float: left;
 }
 
 #blog{
     background: #ACF2EB;
     opacity:50%;
-    width:604px;
-    margin-left:20px;
-    padding:20px;
+    /* width:604px; */ 
+    width: 63.180%;
+    /* margin-left:20px;*/ 
+    margin-left: 2.092%;
+    /* padding:20px; */ 
+    padding: 3.311%;
     float: left;
 }
 
 aside{
     background: #304673;
     opacity: 50%; 
-    width: 292px; 
-    margin-left:20px;
-    padding:20px;
+    /* width: 292px; */
+    width: 30.544%;
+    /* margin-left:20px; */ 
+    margin-left: 2.092%;
+    /* padding:20px; */ 
+    padding: 6.849%;
     float: left;
 }
 
