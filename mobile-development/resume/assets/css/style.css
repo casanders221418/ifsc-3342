@@ -118,7 +118,11 @@ main h1:after {
 }
 
 main img {
-  size-adjust: 10%;
+  width: 60%;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
   border: 1px solid var(--accent-color-1);
 }
 
@@ -144,6 +148,7 @@ main img {
   
   .related-links li{
     display: flex;
+    margin: auto;
     justify-content: center;
     list-style: none;
     padding: 0;
