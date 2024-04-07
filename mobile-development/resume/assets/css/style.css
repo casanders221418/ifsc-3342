@@ -149,15 +149,18 @@ main img {
   .related-links li{
     display: flex;
     margin: auto;
-    justify-content: center;
     list-style: none;
     padding: 0;
     gap: 20px;
   }
 
   .related-links a{
-    border: 1px solid var(--accent-color-1);
+    border: 2px solid var(--accent-color-1);
     padding: 8px 16px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    width:40%;
     text-align: center;
     text-decoration: none;
     color: #025959;

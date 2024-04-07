@@ -25,9 +25,8 @@ main{
 
 header.primary, footer.primary{
     /* width: 916px; */
-    width: 95.816%
-    background: #6BCCF2;
-    opacity: 50%; 
+    width: 95.816%;
+    background: #6BCCF2; 
     /* margin: 20px; */ 
     margin: 2.092%;
     /* padding: 20px; */
@@ -37,7 +36,6 @@ header.primary, footer.primary{
 
 #blog{
     background: #ACF2EB;
-    opacity:50%;
     /* width:604px; */ 
     width: 63.180%;
     /* margin-left:20px;*/ 
@@ -49,7 +47,6 @@ header.primary, footer.primary{
 
 aside{
     background: #304673;
-    opacity: 50%; 
     /* width: 292px; */
     width: 30.544%;
     /* margin-left:20px; */ 
