@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+:root{
+    --main-bg-color:#F2E0C9:var(--main-bg-color)
+    --primary-type-color: #025959;
+    --accent-color-1: #763a16;
+  }
+
+body img {
+    width: 50%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid var(--accent-color-1);
+  }
